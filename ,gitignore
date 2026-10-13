@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+client_secret.json
+client_secret_*.json
+token.json
+credentials.json
+secrets/
+
+# Local configuration
+*.pem
+*.key
+
+# Editor files
+.vscode/
+.idea/
